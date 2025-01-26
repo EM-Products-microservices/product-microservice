@@ -32,4 +32,4 @@ Follow these steps to clone the repository and run the microservice locally:
   npm run start:dev
   ```
 
-6. **(OPTIONAL) You can find product.sql insert script in prisma/seeders, it contains dummy data to work with on local development**s
+6. **(OPTIONAL) You can find product.sql insert script in prisma/seeders, it contains dummy data to work with on local development**
