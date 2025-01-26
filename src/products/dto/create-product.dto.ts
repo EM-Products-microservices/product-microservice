@@ -14,6 +14,5 @@ export class CreateProductDto {
     @Transform(({ value }) => Math.round(value * 10000) / 10000)
     @IsNumber({ maxDecimalPlaces: 4 })
     @Min(0)
- 
-    public price: Number;
+    public price: number;
 }
