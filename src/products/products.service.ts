@@ -2,7 +2,7 @@ import { BadRequestException, Injectable, Logger, NotFoundException, OnModuleIni
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { PrismaClient } from '@prisma/client';
-import { PaginationDto } from 'src/common';
+import { PaginationDto } from 'shared-kit';
 
 @Injectable()
 export class ProductsService extends PrismaClient implements OnModuleInit {
